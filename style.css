@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+}
+.myForm{
+    margin: 100px;
+}
+.row{
+    margin-top: 5px;
+}
+.container-page{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;  
+    background-color: aliceblue;
+}
+.header {
+    background-color: #4a76a8;
+    display: flex;
+    align-items: center; 
+    padding: 0 15px; 
+    height: 50px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.header p {
+    color: white;
+    font-weight: 600; 
+    font-size: 16px; 
+
+}
+
+.header input{
+    margin-left: 25%;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 6px;
+}
+.mainPart{
+    margin-top: 15px;
+    width: 80%;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    width: 200px; /* Задаем ширину меню */
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    font-size: 16px; /* Размер текста */
+    font-weight: normal; /* Обычный шрифт */
+    margin-top: 10px; /* Отступ между пунктами */
+    padding: 10px; /* Внутренний отступ */
+    border-radius: 5px; /* Закругленные края */
+    transition: background-color 0.3s; /* Анимация при наведении */
+    color: #333; /* Цвет текста */
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    background-color: #f2f3f5; /* Цвет фона при наведении (как у ВК) */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333; 
+    display: block; 
+       
+}
+
+.avatar{
+    background-color: white;
+    border-radius: 7px;
+    width: 260px;
+    padding: 15px;
+}
+.avatar img{
+    width: 100%;
+}
+.avatar button{
+    margin-top: 15px;
+    width: 100%;
+    background-color: aliceblue;
+    color: #4a76a8;
+    font-size: 18px;
+    padding: 5px;
+    border: 1px solid aliceblue;
+}
+.friends{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 7px;
+    width: 260px;
+    padding: 15px;
+}
+.friendsText{
+    display: flex;
+    color: #4a76a8;
+}
+.friendsText p{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.friendsPhoto{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row1 {
+    display: flex;
+    justify-content: center; 
+    gap: 5px;
+}
+
+.row1Element {
+    width: 70px; /* Фиксированная ширина контейнера */
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.row1Element img {
+    width: 70px; /* Фиксированная ширина изображения */
+    height: 70px; /* Фиксированная высота изображения */
+    object-fit: cover; /* Удерживает пропорции, обрезая излишки */
+    border-radius: 50%; /* Делает изображение круглым */
+    border: 2px solid #ddd; /* Рамка вокруг изображения, опционально */
+}
+
+.myInfo{
+    background-color: white;
+    border-radius: 7px;
+    width: 800px;
+    padding: 15px;
+}
+.myInfo1{
+    display: flex;
+    justify-content: space-between;
+}
+.myInfo1 p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+.myInfo1 span{
+    color: darkgray;
+    font-size: 16px;
+}
+.myInfo2{
+    display: flex;
+}
+.first{
+    margin-top: 15px;
+}
+.first p{
+    color: darkgrey;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.second{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.second p{
+    color: darkslategray;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.myInfo3{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.myInfo3 p{
+    color: #4a76a8;
+    font-size: 24px;
+    text-align: center;
+}
+.myInfo3 span{
+    color: darkgrey;
+    font-size: 14px;
+}
+.myPhotos {
+    background-color: white;
+    border-radius: 7px;
+    width: 800px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.myPhotos1 {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.myPhotos1 img {
+    width: 22%; /* Устанавливает ширину изображения */
+    height: 150px; /* Задает фиксированную высоту */
+    object-fit: cover; /* Удерживает пропорции и заполняет заданную область */
+    border-radius: 5px; /* Скругление углов, опционально */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Добавляет тень для визуальной эстетики */
+}
+
+.myNews{
+    background-color: white;
+    border-radius: 7px;
+    width: 800px;
+    padding: 15px;
+    margin-top: 20px;
+    height: auto;
+}
+.myNews1{
+    display: flex;
+}
+.text1{
+    margin-top: 15px;
+}
+.text1 p{
+    color: #4a76a8;
+    font-size: 16px;
+    font-weight: bold;
+}
+.text1 span{
+    color: darkgray;
+    font-size: 14px;
+}
+.newsNew{
+    margin-top: 15px;
+}
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f3f3f3;
+  }
+  
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 250px;
+    background-color: #f7f8fa;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar-header {
+    background-color: #4a76a8;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+   
+ .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .friends-header {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .friends-header button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4a76a8;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .friends-header button.active {
+    background-color: #4a76a8;
+  }
+  
+  .friends-search input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  .friends-list {
+    list-style: none;
+  }
+  
+  .friend {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .friend img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .friend-info {
+    flex-grow: 1;
+  }
+  
+  .friend-info h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .friend-info button {
+    background-color: #4a76a8;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Right Sidebar */
+  .right-sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f7f8fa;
+  }
+  
+  .my-friends,
+  .possible-friends {
+    margin-bottom: 20px;
+  }
+  .my-friends{
+    list-style: none;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+  }
+  .my-friends ul {
+    list-style: none;
+    padding: 0; /* Убирает отступ слева от списка */
+    margin: 0;  /* Убирает внешний отступ, если нужно */
+  }
+  
+  .my-friends li {
+    padding: 5px 0; /* Отступы между пунктами, опционально */
+  }
+  
+  
+  .possible-friends ul {
+    list-style: none;
+  }
+  
+  .possible-friends li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .possible-friends img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .possible-friends button {
+    margin-left: auto;
+    background-color: #4a76a8;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .container-page {
+        flex-direction: column;
+    }
+    .navBar input {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
